@@ -1,0 +1,16 @@
+{
+  "name": "srl-create-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "srl-create-project": "node manual-login-new-project.js",
+    "srl-create-project:login": "node manual-login-new-project.js --login",
+    "srl-create-project:fill": "node fill-form-with-wiremock-data.js",
+    "copy-appform": "node copy-appform-checkboxes.js",
+    "copy-appform:export": "node copy-appform-checkboxes.js --export",
+    "copy-appform:apply": "node copy-appform-checkboxes.js --apply"
+  },
+  "dependencies": {
+    "playwright": "^1.53.0"
+  }
+}
